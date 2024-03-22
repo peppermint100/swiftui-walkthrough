@@ -13,6 +13,7 @@ struct PeopleView: View {
         repeating: GridItem(.flexible()), count: 2)
     
     @State private var users: [User] = []
+    @State private var shouldShowCreate = false
     
     var body: some View {
         NavigationView {
@@ -40,12 +41,18 @@ struct PeopleView: View {
                 }
             }
             .onAppear {
-                do {
-                    let res = try StaticJSONMapper.decode(file: "UsersStaticData", type: UsersResponse.self)
-                    users = res.data
-                } catch {
-                    print(error)
+                NetworkingManager.shared.request("https://reqres.in/api/users",
+                                                 type: UsersResponse.self) { res in
+                    switch res {
+                    case .success(let response):
+                        users = response.data
+                    case .failure(let error):
+                        print(error)
+                    }
                 }
+            }
+            .sheet(isPresented: $shouldShowCreate) {
+                CreateView()
             }
         }
     }
@@ -62,7 +69,9 @@ private extension PeopleView {
     }
     
     var create: some View {
-        Button(action: {}, label: {
+        Button(action: {
+            shouldShowCreate.toggle()
+        }, label: {
             Symbols.plus
                 .font(.system(.headline, design: .rounded))
                 .bold()
