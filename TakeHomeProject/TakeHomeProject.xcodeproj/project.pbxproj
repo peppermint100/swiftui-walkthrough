@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */; };
-		BA6CC1302BAD204C001C7438 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC12F2BAD204C001C7438 /* ContentView.swift */; };
 		BA6CC1322BAD204E001C7438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1312BAD204E001C7438 /* Assets.xcassets */; };
 		BA6CC1352BAD204E001C7438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1342BAD204E001C7438 /* Preview Assets.xcassets */; };
 		BA6CC13D2BAD20C3001C7438 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC13C2BAD20C3001C7438 /* Symbols.swift */; };
@@ -19,12 +18,12 @@
 		BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC15A2BAD2D09001C7438 /* UsersResponse.swift */; };
 		BA6CC15E2BAD2D6C001C7438 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC15D2BAD2D6C001C7438 /* Models.swift */; };
 		BA6CC1612BAD2D99001C7438 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC1602BAD2D99001C7438 /* StaticJSONMapper.swift */; };
+		BA6CC1632BAD36C7001C7438 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC1622BAD36C7001C7438 /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA6CC12A2BAD204C001C7438 /* TakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeProjectApp.swift; sourceTree = "<group>"; };
-		BA6CC12F2BAD204C001C7438 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA6CC1312BAD204E001C7438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6CC1342BAD204E001C7438 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA6CC13C2BAD20C3001C7438 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		BA6CC15A2BAD2D09001C7438 /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		BA6CC15D2BAD2D6C001C7438 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		BA6CC1602BAD2D99001C7438 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		BA6CC1622BAD36C7001C7438 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,6 @@
 				BA6CC1402BAD26E7001C7438 /* Base */,
 				BA6CC13B2BAD205F001C7438 /* Resources */,
 				BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */,
-				BA6CC12F2BAD204C001C7438 /* ContentView.swift */,
 				BA6CC1312BAD204E001C7438 /* Assets.xcassets */,
 				BA6CC1332BAD204E001C7438 /* Preview Content */,
 			);
@@ -159,6 +158,7 @@
 		BA6CC1462BAD270C001C7438 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA6CC1622BAD36C7001C7438 /* PeopleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,8 +341,8 @@
 			files = (
 				BA6CC1612BAD2D99001C7438 /* StaticJSONMapper.swift in Sources */,
 				BA6CC13D2BAD20C3001C7438 /* Symbols.swift in Sources */,
+				BA6CC1632BAD36C7001C7438 /* PeopleView.swift in Sources */,
 				BA6CC13F2BAD232F001C7438 /* Theme.swift in Sources */,
-				BA6CC1302BAD204C001C7438 /* ContentView.swift in Sources */,
 				BA6CC1592BAD2CD0001C7438 /* UserDetailResponse.swift in Sources */,
 				BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */,
 				BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */,
