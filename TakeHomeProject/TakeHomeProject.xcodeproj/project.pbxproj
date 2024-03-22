@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D542BAD5481009F82AD /* PersonItemView.swift */; };
+		BA325D582BAD559C009F82AD /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D572BAD559C009F82AD /* PillView.swift */; };
 		BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */; };
 		BA6CC1322BAD204E001C7438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1312BAD204E001C7438 /* Assets.xcassets */; };
 		BA6CC1352BAD204E001C7438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1342BAD204E001C7438 /* Preview Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA325D542BAD5481009F82AD /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
+		BA325D572BAD559C009F82AD /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 		BA6CC12A2BAD204C001C7438 /* TakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeProjectApp.swift; sourceTree = "<group>"; };
 		BA6CC1312BAD204E001C7438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA325D562BAD558F009F82AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA325D572BAD559C009F82AD /* PillView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BA6CC1212BAD204C001C7438 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +110,7 @@
 		BA6CC1402BAD26E7001C7438 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				BA325D562BAD558F009F82AD /* Views */,
 				BA6CC15F2BAD2D8B001C7438 /* Mapper */,
 				BA6CC15C2BAD2D65001C7438 /* Model */,
 			);
@@ -159,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6CC1622BAD36C7001C7438 /* PeopleView.swift */,
+				BA325D542BAD5481009F82AD /* PersonItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,12 +354,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6CC1612BAD2D99001C7438 /* StaticJSONMapper.swift in Sources */,
+				BA325D582BAD559C009F82AD /* PillView.swift in Sources */,
 				BA6CC13D2BAD20C3001C7438 /* Symbols.swift in Sources */,
 				BA6CC1632BAD36C7001C7438 /* PeopleView.swift in Sources */,
 				BA6CC13F2BAD232F001C7438 /* Theme.swift in Sources */,
 				BA6CC1592BAD2CD0001C7438 /* UserDetailResponse.swift in Sources */,
 				BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */,
 				BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */,
+				BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */,
 				BA6CC15E2BAD2D6C001C7438 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
