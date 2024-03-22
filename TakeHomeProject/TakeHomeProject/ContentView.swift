@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Hello, World!")
+            .padding()
+            .onAppear {
+                print("User response")
+                dump(
+                    try? StaticJSONMapper.decode(
+                        file: "UsersStaticData", type: UsersResponse.self)
+                )
+                
+                print("Single User response")
+                dump(
+                    try? StaticJSONMapper.decode(
+                        file: "SingleUserData", type: UserDetailResponse.self)
+                )
+            }
     }
 }
 
