@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2E6B4C2BAF018600D1DC7A /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E6B4B2BAF018600D1DC7A /* PeopleViewModel.swift */; };
 		BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D542BAD5481009F82AD /* PersonItemView.swift */; };
 		BA325D582BAD559C009F82AD /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D572BAD559C009F82AD /* PillView.swift */; };
 		BA325D5A2BAD6A60009F82AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D592BAD6A60009F82AD /* DetailView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2E6B4B2BAF018600D1DC7A /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		BA325D542BAD5481009F82AD /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
 		BA325D572BAD559C009F82AD /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 		BA325D592BAD6A60009F82AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		BA6CC1472BAD2711001C7438 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BA2E6B4B2BAF018600D1DC7A /* PeopleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				BA325D602BAD7AA3009F82AD /* NetworkingManager.swift in Sources */,
 				BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */,
 				BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */,
+				BA2E6B4C2BAF018600D1DC7A /* PeopleViewModel.swift in Sources */,
 				BA325D5C2BAD76FB009F82AD /* CreateView.swift in Sources */,
 				BA6CC15E2BAD2D6C001C7438 /* Models.swift in Sources */,
 			);
