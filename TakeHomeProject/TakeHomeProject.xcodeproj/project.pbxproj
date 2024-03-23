@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BA2E6B4C2BAF018600D1DC7A /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E6B4B2BAF018600D1DC7A /* PeopleViewModel.swift */; };
+		BA2E6B4E2BAF056500D1DC7A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E6B4D2BAF056500D1DC7A /* DetailViewModel.swift */; };
+		BA2E6B502BAF2D4800D1DC7A /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E6B4F2BAF2D4800D1DC7A /* NewPerson.swift */; };
+		BA2E6B522BAF2DBB00D1DC7A /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E6B512BAF2DBB00D1DC7A /* CreateViewModel.swift */; };
 		BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D542BAD5481009F82AD /* PersonItemView.swift */; };
 		BA325D582BAD559C009F82AD /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D572BAD559C009F82AD /* PillView.swift */; };
 		BA325D5A2BAD6A60009F82AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D592BAD6A60009F82AD /* DetailView.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		BA2E6B4B2BAF018600D1DC7A /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		BA2E6B4D2BAF056500D1DC7A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		BA2E6B4F2BAF2D4800D1DC7A /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
+		BA2E6B512BAF2DBB00D1DC7A /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		BA325D542BAD5481009F82AD /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
 		BA325D572BAD559C009F82AD /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
 		BA325D592BAD6A60009F82AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -221,6 +227,7 @@
 		BA6CC14A2BAD2753001C7438 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BA2E6B512BAF2DBB00D1DC7A /* CreateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -228,6 +235,7 @@
 		BA6CC14B2BAD2757001C7438 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA2E6B4F2BAF2D4800D1DC7A /* NewPerson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 		BA6CC14E2BAD2764001C7438 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BA2E6B4D2BAF056500D1DC7A /* DetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -376,6 +385,7 @@
 				BA6CC1612BAD2D99001C7438 /* StaticJSONMapper.swift in Sources */,
 				BA325D582BAD559C009F82AD /* PillView.swift in Sources */,
 				BA6CC13D2BAD20C3001C7438 /* Symbols.swift in Sources */,
+				BA2E6B522BAF2DBB00D1DC7A /* CreateViewModel.swift in Sources */,
 				BA6CC1632BAD36C7001C7438 /* PeopleView.swift in Sources */,
 				BA6CC13F2BAD232F001C7438 /* Theme.swift in Sources */,
 				BA325D5A2BAD6A60009F82AD /* DetailView.swift in Sources */,
@@ -384,8 +394,10 @@
 				BA325D602BAD7AA3009F82AD /* NetworkingManager.swift in Sources */,
 				BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */,
 				BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */,
+				BA2E6B502BAF2D4800D1DC7A /* NewPerson.swift in Sources */,
 				BA2E6B4C2BAF018600D1DC7A /* PeopleViewModel.swift in Sources */,
 				BA325D5C2BAD76FB009F82AD /* CreateView.swift in Sources */,
+				BA2E6B4E2BAF056500D1DC7A /* DetailViewModel.swift in Sources */,
 				BA6CC15E2BAD2D6C001C7438 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
