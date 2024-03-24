@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FECCFA82-668D-4602-A4F2-69D0E78200EF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TakeHomeProject/Features/Create/ViewModels/CreateViewModel.swift"
@@ -62,6 +62,51 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
                   endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "FECCFA82-668D-4602-A4F2-69D0E78200EF - bba3fed13d7c518b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TakeHomeProject.CreateViewModel.create() -&gt; ()"
+                  moduleName = "TakeHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/peppermint100/workspace/swiftui-walkthrough/TakeHomeProject/TakeHomeProject/Features/Create/ViewModels/CreateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "FECCFA82-668D-4602-A4F2-69D0E78200EF - 485e75111c1ecd05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(), Swift.Error&gt;) -&gt; () in TakeHomeProject.CreateViewModel.create() -&gt; ()"
+                  moduleName = "TakeHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/peppermint100/workspace/swiftui-walkthrough/TakeHomeProject/TakeHomeProject/Features/Create/ViewModels/CreateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "FECCFA82-668D-4602-A4F2-69D0E78200EF - 16bbc7d1bb272e21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;(), Swift.Error&gt;) -&gt; () in TakeHomeProject.CreateViewModel.create() -&gt; ()"
+                  moduleName = "TakeHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/peppermint100/workspace/swiftui-walkthrough/TakeHomeProject/TakeHomeProject/Features/Create/ViewModels/CreateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
                   offsetFromSymbolStart = "52">
                </Location>
             </Locations>
