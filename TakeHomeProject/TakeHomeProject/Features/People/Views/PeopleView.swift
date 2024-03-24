@@ -21,17 +21,21 @@ struct PeopleView: View {
                 
                 background
                 
-                ScrollView {
-                    LazyVGrid(columns: columns, spacing: 16) {
-                        ForEach(vm.users, id: \.id) { user in
-                            NavigationLink{
-                                DetailView(userId: user.id)
-                            } label: {
-                                PersonItemView(user: user)
+                if vm.isLoading {
+                    ProgressView()
+                } else {
+                    ScrollView {
+                        LazyVGrid(columns: columns, spacing: 16) {
+                            ForEach(vm.users, id: \.id) { user in
+                                NavigationLink{
+                                    DetailView(userId: user.id)
+                                } label: {
+                                    PersonItemView(user: user)
+                                }
                             }
                         }
+                        .padding()
                     }
-                    .padding()
                 }
             }
             .navigationTitle("People")
@@ -45,6 +49,11 @@ struct PeopleView: View {
             }
             .sheet(isPresented: $shouldShowCreate) {
                 CreateView()
+            }
+            .alert(isPresented: $vm.hasError, error: vm.error) {
+                Button("Retry") {
+                    vm.fetchUsers()
+                }
             }
         }
     }
@@ -67,6 +76,6 @@ private extension PeopleView {
             Symbols.plus
                 .font(.system(.headline, design: .rounded))
                 .bold()
-        })
+        }).disabled(vm.isLoading)
     }
 }
