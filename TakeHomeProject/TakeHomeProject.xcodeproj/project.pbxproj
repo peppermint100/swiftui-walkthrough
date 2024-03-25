@@ -18,6 +18,9 @@
 		BA325D5C2BAD76FB009F82AD /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D5B2BAD76FB009F82AD /* CreateView.swift */; };
 		BA325D602BAD7AA3009F82AD /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325D5F2BAD7AA3009F82AD /* NetworkingManager.swift */; };
 		BA456FB82BB1313C008E10DC /* CreateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FB72BB1313C008E10DC /* CreateValidator.swift */; };
+		BA456FBB2BB13680008E10DC /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBA2BB13680008E10DC /* HapticManager.swift */; };
+		BA456FBD2BB1383D008E10DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBC2BB1383D008E10DC /* SettingsView.swift */; };
+		BA456FC02BB13904008E10DC /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBF2BB13904008E10DC /* UserDefaultsKey.swift */; };
 		BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */; };
 		BA6CC1322BAD204E001C7438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1312BAD204E001C7438 /* Assets.xcassets */; };
 		BA6CC1352BAD204E001C7438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1342BAD204E001C7438 /* Preview Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		BA325D5B2BAD76FB009F82AD /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		BA325D5F2BAD7AA3009F82AD /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		BA456FB72BB1313C008E10DC /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
+		BA456FBA2BB13680008E10DC /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		BA456FBC2BB1383D008E10DC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BA456FBF2BB13904008E10DC /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		BA6CC12A2BAD204C001C7438 /* TakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeProjectApp.swift; sourceTree = "<group>"; };
 		BA6CC1312BAD204E001C7438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +99,22 @@
 				BA456FB72BB1313C008E10DC /* CreateValidator.swift */,
 			);
 			path = Validator;
+			sourceTree = "<group>";
+		};
+		BA456FB92BB13673008E10DC /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				BA456FBA2BB13680008E10DC /* HapticManager.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		BA456FBE2BB138F9008E10DC /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				BA456FBF2BB13904008E10DC /* UserDefaultsKey.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 		BA6CC1212BAD204C001C7438 = {
@@ -145,6 +167,8 @@
 		BA6CC1402BAD26E7001C7438 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				BA456FBE2BB138F9008E10DC /* UserDefaults */,
+				BA456FB92BB13673008E10DC /* Haptics */,
 				BA325D5D2BAD7A92009F82AD /* API */,
 				BA325D562BAD558F009F82AD /* Views */,
 				BA6CC15F2BAD2D8B001C7438 /* Mapper */,
@@ -281,6 +305,7 @@
 		BA6CC1502BAD276D001C7438 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA456FBC2BB1383D008E10DC /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -396,14 +421,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA456FBD2BB1383D008E10DC /* SettingsView.swift in Sources */,
 				BA217BEB2BAFC06A006550D6 /* CheckmarkPopoverView.swift in Sources */,
 				BA6CC1612BAD2D99001C7438 /* StaticJSONMapper.swift in Sources */,
 				BA325D582BAD559C009F82AD /* PillView.swift in Sources */,
 				BA6CC13D2BAD20C3001C7438 /* Symbols.swift in Sources */,
 				BA2E6B522BAF2DBB00D1DC7A /* CreateViewModel.swift in Sources */,
 				BA6CC1632BAD36C7001C7438 /* PeopleView.swift in Sources */,
+				BA456FBB2BB13680008E10DC /* HapticManager.swift in Sources */,
 				BA6CC13F2BAD232F001C7438 /* Theme.swift in Sources */,
 				BA325D5A2BAD6A60009F82AD /* DetailView.swift in Sources */,
+				BA456FC02BB13904008E10DC /* UserDefaultsKey.swift in Sources */,
 				BA6CC1592BAD2CD0001C7438 /* UserDetailResponse.swift in Sources */,
 				BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */,
 				BA325D602BAD7AA3009F82AD /* NetworkingManager.swift in Sources */,
