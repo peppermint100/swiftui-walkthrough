@@ -16,7 +16,7 @@ final class DetailViewModel: ObservableObject {
     
     func fetchDetail(for id: Int) {
         isLoading = true
-        NetworkingManager.shared.request("https://reqres.in/api/users/\(id)?delay=1",
+        NetworkingManager.shared.request(.detail(id: id),
                                          type: UserDetailResponse.self) { [weak self] res in
             DispatchQueue.main.async {
                 defer { self?.isLoading = false }

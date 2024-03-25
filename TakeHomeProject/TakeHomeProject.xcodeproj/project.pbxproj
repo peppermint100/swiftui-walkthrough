@@ -21,6 +21,7 @@
 		BA456FBB2BB13680008E10DC /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBA2BB13680008E10DC /* HapticManager.swift */; };
 		BA456FBD2BB1383D008E10DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBC2BB1383D008E10DC /* SettingsView.swift */; };
 		BA456FC02BB13904008E10DC /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FBF2BB13904008E10DC /* UserDefaultsKey.swift */; };
+		BA456FC22BB13E57008E10DC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA456FC12BB13E57008E10DC /* Endpoint.swift */; };
 		BA6CC12E2BAD204C001C7438 /* TakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */; };
 		BA6CC1322BAD204E001C7438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1312BAD204E001C7438 /* Assets.xcassets */; };
 		BA6CC1352BAD204E001C7438 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6CC1342BAD204E001C7438 /* Preview Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		BA456FBA2BB13680008E10DC /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		BA456FBC2BB1383D008E10DC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BA456FBF2BB13904008E10DC /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		BA456FC12BB13E57008E10DC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		BA6CC12A2BAD204C001C7438 /* TakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6CC12D2BAD204C001C7438 /* TakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeProjectApp.swift; sourceTree = "<group>"; };
 		BA6CC1312BAD204E001C7438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BA325D5F2BAD7AA3009F82AD /* NetworkingManager.swift */,
+				BA456FC12BB13E57008E10DC /* Endpoint.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				BA6CC15B2BAD2D09001C7438 /* UsersResponse.swift in Sources */,
 				BA325D552BAD5481009F82AD /* PersonItemView.swift in Sources */,
 				BA2E6B502BAF2D4800D1DC7A /* NewPerson.swift in Sources */,
+				BA456FC22BB13E57008E10DC /* Endpoint.swift in Sources */,
 				BA2E6B4C2BAF018600D1DC7A /* PeopleViewModel.swift in Sources */,
 				BA325D5C2BAD76FB009F82AD /* CreateView.swift in Sources */,
 				BA456FB82BB1313C008E10DC /* CreateValidator.swift in Sources */,
