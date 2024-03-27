@@ -7,6 +7,8 @@ SwiftUI를 공부한 내용을 정리합니다.
 - [AsyncImage](TakeHomeProject/TakeHomeProject/Features/Detail/Views/DetailView.swift)
 - [외부 웹 링크 Safari로 열기](TakeHomeProject/TakeHomeProject/Features/Detail/Views/DetailView.swift)
 - [Popover Animation](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
+- [Toolbar](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
+- [Sheet](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
 
 ## Combine
 - [URLSession dataTaskPublisher로 API 요청하기](SwiftUICombineMVVMNewsApp/SwiftUICombineMVVMNewsApp/Service/NewsService.swift)
@@ -26,4 +28,4 @@ SwiftUI를 공부한 내용을 정리합니다.
 - [JSON 파일 읽기](TakeHomeProject/TakeHomeProject/Base/Mapper/StaticJSONMapper.swift)
 
 ## UserDefaults
-[UserDefaults 어노테이션](TakeHomeProject/TakeHomeProject/Features/Setting/Views/SettingsView.swift)
+- [UserDefaults 어노테이션](TakeHomeProject/TakeHomeProject/Features/Setting/Views/SettingsView.swift)
