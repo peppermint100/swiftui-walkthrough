@@ -24,3 +24,6 @@ SwiftUI를 공부한 내용을 정리합니다.
 
 ## File
 - [JSON 파일 읽기](TakeHomeProject/TakeHomeProject/Base/Mapper/StaticJSONMapper.swift)
+
+## UserDefaults
+[UserDefaults 어노테이션](TakeHomeProject/TakeHomeProject/Features/Setting/Views/SettingsView.swift)
