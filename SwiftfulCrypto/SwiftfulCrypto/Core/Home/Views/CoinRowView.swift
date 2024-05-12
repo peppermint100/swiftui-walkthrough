@@ -25,10 +25,9 @@ struct CoinRowView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     Group {
         CoinRowView(coin: DeveloperPreview.instance.coin, showHoldingsColumn: true)
-            .previewLayout(.sizeThatFits)
     }
 }
 
