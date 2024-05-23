@@ -12,6 +12,8 @@
 		BA0359642BF2050E0055DBA6 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0359632BF2050E0055DBA6 /* PortfolioView.swift */; };
 		BA0359662BF206D00055DBA6 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0359652BF206D00055DBA6 /* XMarkButton.swift */; };
 		BA0359682BF208540055DBA6 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0359672BF208540055DBA6 /* CoinLogoView.swift */; };
+		BA1568132BFEE2C5003C8B0F /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1568122BFEE2C5003C8B0F /* ChartView.swift */; };
+		BA1568152BFEEC33003C8B0F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1568142BFEEC33003C8B0F /* Date.swift */; };
 		BA2E5A752BF0DEF9005AA15F /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E5A742BF0DEF9005AA15F /* CoinDataService.swift */; };
 		BA2E5A782BF0E392005AA15F /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E5A772BF0E392005AA15F /* NetworkingManager.swift */; };
 		BA2E5A7B2BF0E9D4005AA15F /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E5A7A2BF0E9D4005AA15F /* CoinImageView.swift */; };
@@ -52,6 +54,8 @@
 		BA0359632BF2050E0055DBA6 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		BA0359652BF206D00055DBA6 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 		BA0359672BF208540055DBA6 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
+		BA1568122BFEE2C5003C8B0F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		BA1568142BFEEC33003C8B0F /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		BA2E5A742BF0DEF9005AA15F /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		BA2E5A772BF0E392005AA15F /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		BA2E5A7A2BF0E9D4005AA15F /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				BA4365472BFDD16900D476C1 /* DetailView.swift */,
+				BA1568122BFEE2C5003C8B0F /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				BA685F672BF098B500469661 /* Color.swift */,
 				BA685F7E2BF0C64600469661 /* Double.swift */,
 				BA2E5A892BF1DCCA005AA15F /* UIApplication.swift */,
+				BA1568142BFEEC33003C8B0F /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				BA685F742BF09D6300469661 /* CircleButtonAnimationView.swift in Sources */,
 				BA2E5A862BF1B73D005AA15F /* LocalFileManager.swift in Sources */,
 				BA2E5A882BF1D98E005AA15F /* SearchBarView.swift in Sources */,
+				BA1568132BFEE2C5003C8B0F /* ChartView.swift in Sources */,
 				BA2E5A7F2BF0EB9A005AA15F /* CoinImageViewModel.swift in Sources */,
 				BA685F7D2BF0C4A800469661 /* DeveloperPreview.swift in Sources */,
 				BA43653F2BFD8D4400D476C1 /* PortfolioContainer.xcdatamodeld in Sources */,
@@ -378,6 +385,7 @@
 				BA685F7F2BF0C64600469661 /* Double.swift in Sources */,
 				BA4365482BFDD16900D476C1 /* DetailView.swift in Sources */,
 				BA0359602BF1ED710055DBA6 /* MarkDataModel.swift in Sources */,
+				BA1568152BFEEC33003C8B0F /* Date.swift in Sources */,
 				BA2E5A842BF0F0C8005AA15F /* KeyConstant.swift in Sources */,
 				BA2E5A7D2BF0EABC005AA15F /* CoinImageService.swift in Sources */,
 				BA685F772BF0A9B600469661 /* CoinModel.swift in Sources */,
