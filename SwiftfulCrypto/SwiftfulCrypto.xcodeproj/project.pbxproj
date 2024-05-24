@@ -46,6 +46,7 @@
 		BA685F7D2BF0C4A800469661 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA685F7C2BF0C4A800469661 /* DeveloperPreview.swift */; };
 		BA685F7F2BF0C64600469661 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA685F7E2BF0C64600469661 /* Double.swift */; };
 		BA685F812BF0CB6900469661 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA685F802BF0CB6900469661 /* HomeViewModel.swift */; };
+		BA9D02292C002BFD00F2A55F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D02282C002BFC00F2A55F /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		BA685F7C2BF0C4A800469661 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 		BA685F7E2BF0C64600469661 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		BA685F802BF0CB6900469661 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BA9D02282C002BFC00F2A55F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				BA685F7E2BF0C64600469661 /* Double.swift */,
 				BA2E5A892BF1DCCA005AA15F /* UIApplication.swift */,
 				BA1568142BFEEC33003C8B0F /* Date.swift */,
+				BA9D02282C002BFC00F2A55F /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9D02292C002BFD00F2A55F /* String.swift in Sources */,
 				BA2E5A752BF0DEF9005AA15F /* CoinDataService.swift in Sources */,
 				BA685F792BF0C14000469661 /* CoinRowView.swift in Sources */,
 				BA685F812BF0CB6900469661 /* HomeViewModel.swift in Sources */,
