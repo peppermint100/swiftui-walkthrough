@@ -24,6 +24,7 @@ class MarketDataService {
         
         marketDataSubscription = NetworkingManager.download(url: url)
             .decode(type: GlobalData.self, decoder: JSONDecoder())
+            .receive(on: DispatchQueue.main)
             .map { $0.data }
             .sink(
                 receiveCompletion: NetworkingManager.handleCompletion

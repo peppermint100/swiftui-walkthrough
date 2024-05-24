@@ -15,6 +15,7 @@ struct XMarkButton: View {
             presentationMode.wrappedValue.dismiss()
         }, label: {
             Image(systemName: "xmark")
+                .font(.headline)
         })
     }
 }
