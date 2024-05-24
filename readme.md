@@ -9,14 +9,33 @@ SwiftUI를 공부한 내용을 정리합니다.
 - [Popover Animation](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
 - [Toolbar](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
 - [Sheet](TakeHomeProject/TakeHomeProject/Features/People/Views/PeopleView.swift)
+- [커스텀 텍스트필드, 서치바](SwiftfulCrypto/SwiftfulCrypto/Core/Components/SearchBarView.swift)
+
+- [Circle 버튼 애니메이션](SwiftfulCrypto/SwiftfulCrypto/Core/Components/CircleButton/CircleButtonAnimationView.swift)
+
+- [Path를 이용한 그림그리기](SwiftfulCrypto/SwiftfulCrypto/Core/Detail/Views/ChartView.swift)
+
+- [LazyVGrid](SwiftfulCrypto/SwiftfulCrypto/Core/Detail/Views/DetailView.swift)
+
+- [List, Section을 활용한 Setting 화면](SwiftfulCrypto/SwiftfulCrypto/Core/Settings/Views/SettingsView.swift)
+
+## Navigation
+- [네비게이션 커스텀 함수](SwiftfulCrypto/SwiftfulCrypto/Core/Home/Views/HomeView.swift)
+
 
 ## Combine
 - [URLSession dataTaskPublisher로 API 요청하기](SwiftUICombineMVVMNewsApp/SwiftUICombineMVVMNewsApp/Service/NewsService.swift)
 - [Combine으로 API 요청 받아와서 리액티브하기 처리하기](SwiftUICombineMVVMNewsApp/SwiftUICombineMVVMNewsApp/ViewModel/NewsViewModel.swift)
+- [Combine Latest](SwiftfulCrypto/SwiftfulCrypto/Core/Detail/ViewModels/DetailViewModel.swift)
 
 ## Networking
 - [API URL Request](TakeHomeProject/TakeHomeProject/Base/API/Endpoint.swift)
 - [API Error 처리](TakeHomeProject/TakeHomeProject/Base/API/NetworkingManager.swift)
+
+- [Combine + Image 다운로드](SwiftfulCrypto/SwiftfulCrypto/Services/CoinImageService.swift)
+
+- [Combine + 네트워킹 서비스](SwiftfulCrypto/SwiftfulCrypto/Services/CoinDetailDataService.swift)
+
 
 ## 3rd Party
 - [URLImage 라이브러리 사용하기](SwiftUICombineMVVMNewsApp/SwiftUICombineMVVMNewsApp/Views/ArticleView.swift)
